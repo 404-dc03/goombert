@@ -1,2 +1,3 @@
 # goombert
-lol
+Details about the project.
+Coded in C++.
