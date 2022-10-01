@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 struct Foo {
     int x;
 
@@ -12,11 +14,11 @@ struct Foo {
 };
 
 int main() {
-    std::vector<Foo> foos{};
+    vector<Foo> foos{};
     foos.resize(1);
 
     for (int i : foos) {
         foos.push_back(i);
-        std::cout << foos.back();
+        cout << foos.back();
     }
 }
